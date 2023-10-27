@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Table Calculation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="table_title">Programmazione menu</div>
+    <table class="base_table">
+        <thead class="table_head">
+            <tr>
+                <th>Nome del Piatto</th>
+                <th>Preparazioni</th>
+            </tr>
+        </thead>
+        <tfoot class="table_foot">
+            <th><button type="button" id="addDish">Aggiungi un piatto</button></th>
+        </tfoot>
+        <tbody class="table_body">
+            <tr>
+                <th class="head_cell" contenteditable="true">Piatto</th>
+                <td class="preparation_cell" contenteditable="true">Preparazione</td>
+                <td class="td_button_prep"><button type="button" class="addPreparation">+</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="ingredient_table">
+        <caption class="table_caption">
+            <p>Ingredienti</p>
+        </caption>
+        <thead class="table_head">
+            <tr>
+                <th>Preparazioni</th>
+                <th>Ingredienti</th>
+            </tr>
+        </thead>
+        <tbody class="table_body">
+            <tr>
+                <th class="ingredient_preparation">Preparazione</th>
+                <td class="ingredient_cell">Ingrediente</td>
+                <td><button type="button" class="addIngredient">+</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="tablefunction.js"></script>
+</body>
+
+</html>

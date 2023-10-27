@@ -1,0 +1,101 @@
+body {
+    font-family: Mulish;
+    font-size: 11px;
+    background-color: #F7F8FC;
+}
+
+.base_table, .ingredient_table {
+    width: 1120px;
+    max-height: 856px;
+    border: 1px #DFE0EB solid;
+    border-radius: 10px;
+    font-size: 12px;
+    background: rgb(255, 255, 255);
+}
+
+.base_table td,
+.base_table tr,
+.base_table th {
+    padding: 10px 32px;
+}
+
+thead.table_head {
+    color: var(--grayscale-gray, #9FA2B4);
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    margin-top: 104px;
+    vertical-align: bottom;
+    height: 104px;
+    border-bottom: 1px solid #DFE0EB;
+}
+
+.table_head tr,
+.table_head th {
+    border-right: 0px;
+    border-bottom: 1px solid #DFE0EB;
+    text-align: left;
+    padding-left: 32px;
+}
+
+.table_body {
+    text-transform: capitalize;
+    text-align: left;
+    background-color: white;
+}
+
+.table_body tr {
+    height: 52px;
+}
+
+.table_body td,
+.table_body th {
+    color: var(--grayscale-black, #252733);
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    padding-left: 36px;
+    border-bottom: 1px solid #DFE0EB;
+}
+
+.table_foot {
+    text-align: left;
+}
+
+button {
+    background-color: rgb(162, 162, 162);
+    border: 2px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    min-width: 30px;
+    min-height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    background-color: rgb(69, 135, 210);
+    cursor: pointer;
+}
+
+.table_title {
+    margin-top: 42px;
+    margin-bottom: -36px;
+    margin-left: 32px;
+    color: var(--grayscale-black, #252733);
+    font-family: Mulish;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
